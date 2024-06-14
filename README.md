@@ -6,6 +6,12 @@ A template for getting started with [AstroNvim](https://github.com/AstroNvim/Ast
 
 ## 🛠️ Getting started
 
+### Using the install script
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/Franco-from-Owlish/astro-vim-config/main/install.sh | sh
+```
+
 ### Make a backup of your current nvim and shared folder
 
 ```shell
