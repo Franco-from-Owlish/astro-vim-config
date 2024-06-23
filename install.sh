@@ -1,4 +1,11 @@
-# !/bin/bash
+# !/bin/env bash
+set -e
+
+echo "Removing old Neovim config backups"
+rm -rf ~/.config/nvim.bak
+rm -rf ~/.local/share/nvim.bak
+rm -rf ~/.local/state/nvim.bak
+rm -rf ~/.cache/nvim.bak
 
 echo "Creating a backup of Neovim config"
 mv ~/.config/nvim ~/.config/nvim.bak || true
@@ -12,4 +19,3 @@ rm -rf ~/.config/nvim/.git
 rm -f ~/.config/nvim/README.md
 
 echo "Done"
-
