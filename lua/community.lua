@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.helm" },
