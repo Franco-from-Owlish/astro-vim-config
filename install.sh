@@ -17,5 +17,6 @@ echo "Installing AstroNvim config"
 git clone git@github.com:Franco-from-Owlish/astro-vim-config.git ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 rm -f ~/.config/nvim/README.md
+rm -f ~/.config/nvim/install.sh
 
 echo "Done"
