@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.helm" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
