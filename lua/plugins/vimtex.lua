@@ -1,6 +1,7 @@
 ---@type LazySpec
 return {
-  "lervag/vimtex",
+  "vimtex",
+  lazy = true,
   opts = {
     vimtex_view_method = "skim",
   },
