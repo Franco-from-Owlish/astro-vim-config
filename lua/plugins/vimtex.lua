@@ -1,8 +1,6 @@
 ---@type LazySpec
 return {
-  "vimtex",
+  "lervag/vimtex",
   lazy = true,
-  opts = {
-    vimtex_view_method = "skim",
-  },
+  init = function() vim.g.vimtex_view_method = "skim" end,
 }
