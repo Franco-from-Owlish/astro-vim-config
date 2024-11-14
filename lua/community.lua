@@ -36,5 +36,5 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.test.nvim-coverage" },
-  { import = "astrocommunity.workflow.bad-practices" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
