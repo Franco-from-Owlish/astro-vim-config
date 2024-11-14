@@ -12,3 +12,7 @@ vim.filetype.add {
     [".prettierrc"] = "yml",
   },
 }
+
+-- Vimtex configuration
+vim.g.vimtex_view_method = "skim"
+
