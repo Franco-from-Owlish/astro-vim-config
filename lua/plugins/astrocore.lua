@@ -28,7 +28,7 @@ return {
         relativenumber = true, -- sets vim.opt.relativenumber
         number = true, -- sets vim.opt.number
         spell = true, -- sets vim.opt.spell
-        spelllang = "en_uk", -- sets vim.opt.spelllang
+        spelllang = "en_gb", -- sets vim.opt.spelllang
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = true, -- sets vim.opt.wrap
       },
