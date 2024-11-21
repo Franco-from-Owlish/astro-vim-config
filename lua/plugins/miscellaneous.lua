@@ -7,4 +7,5 @@ return {
       vim.keymap.set("n", "<leader>AG", "<cmd>CellularAutomaton game_of_life<CR>")
     end,
   },
+  "preservim/vim-pencil",
 }
